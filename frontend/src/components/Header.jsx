@@ -6,7 +6,7 @@ import logo from "../assets/logo.png";
 const Header = () => {
   return (
     <header>
-      <Navbar bg="dark" variant="dark" expand="md" collapseOnSelect>
+      <Navbar variant="dark" expand="md" collapseOnSelect class="navbar">
         <Container>
           <Navbar.Brand href="/">
             <img src={logo} alt="PrimeCart" />
@@ -16,11 +16,11 @@ const Header = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <Nav.Link href="/cart">
-                <FaShoppingCart />
+                <FaShoppingCart class="m-1" />
                 Cart
               </Nav.Link>
               <Nav.Link href="/login">
-                <FaUser />
+                <FaUser class="m-1" />
                 Sign In
               </Nav.Link>
             </Nav>
