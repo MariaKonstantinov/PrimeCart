@@ -1,6 +1,6 @@
 # PrimeCart - eCommerce website :seedling:
 
-###eCommerce platform build with React, Redux Toolkit, Express, MongoDB, React-Bootstrap UI
+### eCommerce platform build with React, Redux Toolkit, Express, MongoDB, React-Bootstrap UI
 
 ### :four_leaf_clover: Overview
 
